@@ -1,0 +1,10 @@
+@import './partials/colors';
+@import './partials/typography';
+@import './partials/mixins';
+@import './partials/constants';
+
+body, html {
+    font-family: $font-family-body;
+    font-size: $font-size-default;
+    font-weight: $font-weight-default;
+}

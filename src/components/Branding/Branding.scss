@@ -1,0 +1,26 @@
+@import '../../styles/global';
+
+.branding {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.75rem;
+    width: 100%;
+    position: relative;
+
+    .span {
+        color: $dark-sky-blue;
+    }
+
+    .link {
+        color: $warm-grey;
+        text-decoration: none;
+
+        span {
+        font-weight: $font-weight-normal;
+        transition: color 0.2s;
+        }
+        &:not(:hover) span {
+        color: $warm-grey;
+        }
+    }
+}

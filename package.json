@@ -1,0 +1,32 @@
+{
+    "name": "synapse-ui-v2",
+    "version": "1.0.2",
+    "description": "Synapse Reusable components library v2",
+    "main": "build/rrpm.js",
+    "module": "build/rrpm.module.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Synapse",
+    "license": "ISC",
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "@babel/preset-react": "^7.8.3",
+        "node-sass": "^4.13.1",
+        "rollup": "^1.31.1",
+        "rollup-plugin-alias": "^2.2.0",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-postcss": "^2.0.6",
+        "rollup-plugin-replace": "^2.2.0",
+        "sass": "^1.25.0"
+    }
+}
