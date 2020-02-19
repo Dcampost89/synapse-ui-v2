@@ -1,3 +1,5 @@
-import * as components from './components';
+import * as Branding from 'components/Branding/Branding.jsx';
 
-export { components };
+export {
+    Branding
+};

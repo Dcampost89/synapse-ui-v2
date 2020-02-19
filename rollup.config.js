@@ -13,11 +13,22 @@ export default {
     sourcemap: true,
 
     output: {
-        file: './build/bundle.min.js',
-        format: 'iife',
-        name: 'bundle',
+        file: './build/bundle.js',
+        format: 'umd',
+        name: 'synapse-ui-v2',
         sourcemap: true
     },
+
+    targets: [
+        {
+            dest: './build/bundle.js',
+            format: 'umd'
+        },
+        {
+            dest: 'build/bundle.module.js',
+            format: 'es'
+        }
+    ],
 
     plugins: [
         postcss({

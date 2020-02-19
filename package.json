@@ -1,9 +1,9 @@
 {
     "name": "synapse-ui-v2",
-    "version": "1.0.2",
+    "version": "1.0.7",
     "description": "Synapse Reusable components library v2",
-    "main": "build/rrpm.js",
-    "module": "build/rrpm.module.js",
+    "main": "build/bundle.js",
+    "module": "build/bundle.module.js",
     "scripts": {
         "build": "rollup -c rollup.config.js",
         "test": "echo \"Error: no test specified\" && exit 1"
